@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prayag's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="greeting-page">
+      <h1>Kem Cho?</h1>
+      <p>Maja ma</p>
+    </div>
+    <nav class="navigation">
+      <div class="logo"><h1>Prayag Bagthariya</h1></div>
+      <ul>
+        <li><a href="#hero">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cursor"></div>
+      </ul>
+      
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h2>Hi, I'm Prayag</h2>
+        <img src="images/profile-pic.png" alt="Prayag" class="about-image">
+        <p>A front-end developer with a passion for creating beautiful, responsive websites.</p>
+        <a href="#contact" class="button">Get in touch</a>
+      </div>
+    </section>
+
+    <section class ="about" id="about">
+      <div class="about-container">
+        <h2 >About Me</h2>
+        <p>Hello and welcome to my portfolio! My name is Prayag and I'm a front-end developer with a passion for all things sci-fi. From AI to geopolitics and biotech, I am constantly fascinated by the intersection of technology and society. 
+
+          As a front-end developer, I enjoy the creative process of taking designs and turning them into interactive, user-friendly websites. My attention to detail and problem-solving skills allow me to create visually stunning and functional websites that are optimized for a seamless user experience.
+          
+          My love for all things sci-fi extends beyond my work as a developer. I enjoy exploring the latest advancements in technology, and speculating about the future of tech. I believe that technology has the power to shape our world in profound ways, and it is exciting to be a part of that change.
+          
+          When I'm not coding, you can find me reading up on the latest sci-fi novels, watching sci-fi movies and TV shows, or indulging in my other passion - cooking up new recipes in the kitchen.
+          
+          Thank you for taking the time to visit my portfolio. I'm excited to work with you and help bring your vision to life.</p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+          <li>Git</li>
+          <li>Adobe Photoshop</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-card">
+          <video src="images/usabilty hub.mp4" controls autoplay loop></video>
+          </div>
+          <div class="project-text">
+            <h3><a href="https://github.com/reveuse12"> <i class="fa-brands fa-github fa-xl"></i></a> UsabilityHub Website Clone</h3>
+            <p>Introducing my First project - a clone of the popular website usability hub! As a front-end developer, I've put my skills to the test to recreate the website with precision and attention to detail. With this project, I aimed to showcase my proficiency in HTML, CSS, and JavaScript to create a user-friendly and visually appealing interface.
+  
+              The clone is designed to be highly responsive, allowing users to seamlessly access the website on all devices. It is also equipped with a range of features, including user registration and login, interactive surveys, and data analysis tools. My goal was to recreate the functionalities of the original website while adding my own touch of creativity and design.
+  
+              I'm excited to present this project as a testament to my ability to tackle complex projects and deliver high-quality work. Whether you're looking for website building, maintenance, or social media marketing services, I'm confident that this project demonstrates my skills as a front-end developer and my dedication to providing exceptional results.</p>
+          
+          </div>
+        <div class="project-card">
+          <video src="images/Recording 2023-05-13 085541.mp4" controls autoplay loop>
+        </div>
+        <div class="project-text">
+          <h3><a href="https://github.com/reveuse12"> <i class="fa-brands fa-github fa-xl"></i></a>Animated FAQ page</h3>
+        <p>I had the opportunity to work on a project that involved creating a FAQ page with a touch of animation. The aim was to make the page more visually appealing while providing a seamless user experience.
+
+          The project involved a thorough understanding of user behavior and designing an interface that caters to their needs. I began by researching the common questions that users may have regarding the product/service, and then developed a structure for the page that would effectively answer those questions.
+          
+          To add a touch of interactivity and make the page more engaging, I incorporated animation into the design. The animation was minimal but added an element of surprise and delight that kept users engaged. It also helped to highlight the important information, making it easier for users to find what they were looking for.
+          
+          To ensure that the page was easy to use, I focused on creating a clean and simple interface. The layout was structured in a way that allowed users to easily navigate to the section they were interested in. I also made sure that the font size and color contrast were optimized for readability.
+          
+          During the development process, I used modern front-end technologies such as HTML, CSS, and JavaScript to create a responsive and accessible page. The page was tested extensively on different devices to ensure that it worked seamlessly on all platforms.</p>
+          
+        </div>
+        
+          <!-- Add more projects as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="send-email.php" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="button">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="sub-footer ">
+    <p href="" class="sub-footer-link">Prayag Bagthariya</p>
+    <a href="https://www.linkedin.com/in/prayag-bagtharia-766ba4161/" class="sub-footer-link"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+    <a href="https://twitter.com/PBagtharia" class="sub-footer-link"><i class="fa-brands fa-twitter fa-xl"></i></a>
+    <a href="https://github.com/reveuse12" class="sub-footer-link"><i class="fa-brands fa-github fa-xl"></i></a>
+    <a  class="sub-footer-link"><i class="fa-solid fa-phone fa-xl"></i></a>
+    <a  class="sub-footer-link"><i class="fa-solid fa-envelope fa-xl"></i></a>
+</div>
+    <script>
+      window.onload = function() {
+    var greetingPage = document.querySelector('.greeting-page');
+    greetingPage.style.display = 'flex';
+    setTimeout(function() {
+      greetingPage.style.display = 'none';
+    }, 2000);
+  }
+      let cursor = document.querySelector('.cursor');
+      document.addEventListener('mousemove',(e)=>{
+          cursor.style.left = e.pageX + 'px';
+          cursor.style.top = e.pageY + 'px';
+       })
+  </script>
+  <script src="https://kit.fontawesome.com/29a6dfad6e.js" crossorigin="anonymous"></script>
+    </body>
+    </html>
